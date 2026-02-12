@@ -236,7 +236,6 @@ nav {
   align-items: center;
 }
 
-
 a.home-content-link-item:hover {
   z-index: 999;
   opacity: 0.8;
@@ -398,6 +397,18 @@ p.footer-phone {
   display: inline;
 }
 
+.license-scripts-img {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+}
+
+.license-scripts-img img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 10px;
+}
 
 /* SCRIPTS FORM STYLING */
 
@@ -554,6 +565,39 @@ a.page-content-item:hover {
   background-color: red;
   /*border: 1px solid green;*/
 }
+
+details {
+  display: block;
+  color: white;
+  font-family: 'Helvetica-Light', 'Helvetica', 'Arial', sans-serif;
+}
+
+summary {
+  display: list-item;
+  align-items: center;
+  cursor: pointer;
+}
+
+summary::marker {
+  color:white;
+}
+
+.toggle-review {
+  background: none;
+  border: none;
+  color: #fbd060;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+  display: inline;
+  margin-top: 1em;
+}
+
+/*.toggle-review:hover {
+  color: red;
+}*/
 
 /* ABOUT PAGE STYLING */
 .about-content-container {

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replace Text</title>
+    <style>
+        a {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id="text">This is the initial text.</p>
+    <a id="toggleLink" href="#" onclick="replaceText(event)">Click to see more</a>
+
+    <script>
+        function replaceText(event) {
+            event.preventDefault(); // Prevents the link from navigating
+            const textElement = document.getElementById("text");
+            const link = document.getElementById("toggleLink");
+
+            if (textElement.textContent === "This is the initial text.") {
+                textElement.textContent = "This is the replacement text.";
+                link.textContent = "Show less";
+            } else {
+                textElement.textContent = "This is the initial text.";
+                link.textContent = "Click to see more";
+            }
+        }
+    </script>
+</body>
+</html>
