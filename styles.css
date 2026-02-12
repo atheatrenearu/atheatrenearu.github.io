@@ -5,7 +5,7 @@
 }
 body {
   font-size: 18px;
-  font-family: 'Futura', 'Helvetica-Bold', 'Helvetica', 'Arial', sans-serif;
+  font-family: Futura, 'Helvetica-Bold', 'Helvetica', 'Arial', sans-serif;
   background-color: black;
 }
 ul {
@@ -16,11 +16,11 @@ p {
   font-family: 'Helvetica-Light', 'Helvetica', 'Arial', sans-serif;
 }
 @font-face {
-  font-family: 'Futura';
-  src: url(misc/futura.woff);
+  font-family: Futura;
+  src: url(misc/FuturaStdBook.otf);
 }
 h1 {
-  font-family: 'Futura', 'Helvetica', 'Arial', sans-serif;
+  font-family: Futura, 'Helvetica', 'Arial', sans-serif;
   color: white;
   font-style: italic;
   display: flex;
@@ -28,13 +28,13 @@ h1 {
   text-align: left;
 }
 h2 {
-  font-family: 'Futura', 'Helvetica', 'Arial', sans-serif;
+  font-family: Futura, 'Helvetica', 'Arial', sans-serif;
   color: white;
   display: flex;
   justify-content: center;
 }
 h3 {
-    font-family: 'Futura', 'Helvetica', 'Arial', sans-serif;
+    font-family: Futura, 'Helvetica', 'Arial', sans-serif;
     color: white;
 }
 
